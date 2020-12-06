@@ -15,7 +15,6 @@ for i in range(len(data)):
     sID = r*8 + c
     
     outputs.append([sID, r, c])
-#     print(sID, r, c)
     
 outputs = np.array(outputs)
 

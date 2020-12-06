@@ -9,7 +9,7 @@ def descendSlope(move_r, data, move_d=1):
     for i in range(move_d, len(data), move_d):
         move_r_mod = move_r % slope_contour_len
 
-        assert move_r_mod < slope_contour_len#
+        assert move_r_mod < slope_contour_len
         assert move_r_mod >= 0
 
         if data[i][0][move_r_mod] == '#':
@@ -18,7 +18,7 @@ def descendSlope(move_r, data, move_d=1):
         move_r += step_r
     return n_trees
 
-data = [x.split() for x in ''.join(fileinput.input("day3.txt")).split('\n')]
+data = [x.split() for x in ''.join(fileinput.input()).split('\n')]
 
 # part 1
 move_r = 3

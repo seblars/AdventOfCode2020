@@ -7,4 +7,5 @@ Solutions to [Advent of Code 2020](https://adventofcode.com/)
 ## Python
 
 To run solutions in Python, provide inputs as a command line argument.
+
   python day1.py day1.txt

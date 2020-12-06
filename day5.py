@@ -22,4 +22,4 @@ print(np.max(outputs[:,0]))
 
 # part 2
 idx = np.argmax(np.sort(outputs[:,0])[1:] - np.sort(outputs[:,0])[:-1])
-print(np.sort(outputs[:,0])[idx] + 1) # , np.sort(outputs[:,0])[idx+1]
+print(np.sort(outputs[:,0])[idx] + 1)

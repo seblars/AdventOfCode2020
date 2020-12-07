@@ -42,7 +42,6 @@ n_bags = 0
 converged = False
 
 d_bags = {}
-multiplier = [1]
 while not converged:
     new_targets = []
     for t in targets:
